@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+div.container{
+    height: 10%;
+}
+
+header,main{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 3.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-weight: 900;
+    margin: 0;
+    font-size: 6rem;
+    text-align: center;
+}
+
+main{
+    align-items: flex-start;
+    height: 100vh;
+    text-align: center;
+}
+
+main img{
+    width: 50%;
+}
+
+header.dark{
+    background-color: #121213;
+    color: orange;
+}
+
+main.dark{
+    background-color: #121213;
+    color: white;
+}
+
+main.dark p{
+    color: orange;
+}
+
